@@ -61,8 +61,8 @@ class UsersAndNotesSeeder extends Seeder
             'class' => 'badge badge-pill badge-warning',
         ]);
         array_push($statusIds, DB::getPdo()->lastInsertId());
-        /*  insert users   */
-        /*
+            /*  insert users   */
+            /*
         DB::table('users')->insert([
             'name' => 'admin',
             'email' => 'admin@admin.com',

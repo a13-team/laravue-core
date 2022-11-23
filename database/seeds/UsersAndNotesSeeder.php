@@ -15,6 +15,7 @@ class UsersAndNotesSeeder extends Seeder
     public function run()
     {
         $numberOfUsers = 10;
+        
         $faker = Faker::create();
         /*  insert users   */
         DB::table('users')->insert([
