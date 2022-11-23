@@ -5,6 +5,33 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
+/**
+ * App\Models\Menus
+ *
+ * @property int $id
+ * @property string|null $href
+ * @property string|null $icon
+ * @property string $slug
+ * @property int|null $parent_id
+ * @property int $menu_id
+ * @property int $sequence
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus newQuery()
+ * @method static \Illuminate\Database\Query\Builder|Menus onlyTrashed()
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereHref($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereIcon($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereMenuId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereParentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereSequence($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Menus whereSlug($value)
+ * @method static \Illuminate\Database\Query\Builder|Menus withTrashed()
+ * @method static \Illuminate\Database\Query\Builder|Menus withoutTrashed()
+ * @mixin \Eloquent
+ */
 class Menus extends Model
 {
     use SoftDeletes;

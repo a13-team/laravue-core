@@ -4,5 +4,12 @@
         "resources/lang",
         "resources/views/dashboard/languages"
     ],
-    "dotenv.enableAutocloaking": false
+    "dotenv.enableAutocloaking": false,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "oneDarkPro.vivid": true,
+    "php.linkedEditing.variables": true,
+    "thunder-client.saveToWorkspace": true,
+    "thunder-client.httpVersion": "HTTP/2",
+    "typescript.locale": "ru"
 }
