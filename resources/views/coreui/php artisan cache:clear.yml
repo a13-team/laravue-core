@@ -1,0 +1,10 @@
+php artisan cache:clear
+php artisan config:clear
+sudo service php74-fpm stop
+sudo service nginx stop
+
+sudo chown -R $USER:www-data storage
+sudo chown -R $USER:www-data bootstrap/cache
+chmod -R 775 storage
+chmod -R 755 bootstrap/cache
+sudo service php74-fpm start && sudo service nginx start

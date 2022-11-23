@@ -1,0 +1,8 @@
+{
+    "php.version": "php74",
+    "i18n-ally.localesPaths": [
+        "resources/lang",
+        "resources/views/dashboard/languages"
+    ],
+    "dotenv.enableAutocloaking": false
+}

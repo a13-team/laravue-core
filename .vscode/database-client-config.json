@@ -1,0 +1,26 @@
+{
+    "$schema": "https://release-1256208672.cos.ap-guangzhou.myqcloud.com/dbclient/schema.json",
+    "database": {
+        "1667142299574": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "user": "laravel",
+            "password": "HwtLrawZwE3nCCsk",
+            "dbType": "MySQL",
+            "usingSSH": false,
+            "global": false,
+            "savePassword": "Forever",
+            "hideSystemSchema": true,
+            "readonly": false,
+            "sort": 10,
+            "useSSL": false,
+            "encrypt": true,
+            "authType": "default",
+            "esAuth": "none",
+            "showHidden": true,
+            "srv": false,
+            "key": "1667142299574",
+            "connectionKey": "database.connections"
+        }
+    }
+}
