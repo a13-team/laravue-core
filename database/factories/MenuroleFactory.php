@@ -9,9 +9,10 @@ use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
 
+/* Создание фабрики для модели Menurole. */
 $factory->define(Menurole::class, function (Faker $faker) {
-    return [     
+    return [
         'role_name' => 'guest',
-        'menus_id'  => factory(App\Models\Menus::class)->create()->id,
+        'menus_id' => factory(App\Models\Menus::class)->create()->id,
     ];
 });
